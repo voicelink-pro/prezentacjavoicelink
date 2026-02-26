@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoiceLink - Rozwiązanie AI dla Placówki</title>
+    <title>VoiceLink - Rozwiązanie AI dla Przychodni</title>
     <style>
         * {
             margin: 0;
@@ -1229,45 +1229,45 @@
         }
 
         .comparison-table-wrapper {
-            max-width: 900px;
+            max-width: 750px;
             margin: 0 auto;
             background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-mid) 50%, var(--gradient-end) 100%);
-            border-radius: 27px;
-            padding: 3px;
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+            border-radius: 22px;
+            padding: 2px;
+            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.06);
         }
 
         .comparison-table {
             background: white;
-            border-radius: 24px;
+            border-radius: 20px;
             overflow: hidden;
         }
 
         .comparison-table-header {
             display: grid;
-            grid-template-columns: 1fr 150px 150px;
+            grid-template-columns: 1fr 130px 130px;
             background: var(--bg-light);
-            padding: 25px 30px;
+            padding: 16px 24px;
             border-bottom: 1px solid rgba(0, 0, 0, 0.08);
         }
 
         .comparison-table-header .col-feature {
-            font-size: 1rem;
+            font-size: 0.9rem;
             font-weight: 700;
             color: var(--text-dark);
         }
 
         .comparison-table-header .col-label {
             text-align: center;
-            font-size: 0.95rem;
+            font-size: 0.85rem;
             font-weight: 700;
             color: var(--gradient-mid);
         }
 
         .comparison-row {
             display: grid;
-            grid-template-columns: 1fr 150px 150px;
-            padding: 20px 30px;
+            grid-template-columns: 1fr 130px 130px;
+            padding: 14px 24px;
             border-bottom: 1px solid rgba(0, 0, 0, 0.06);
             align-items: center;
             transition: background 0.2s ease;
@@ -1288,18 +1288,18 @@
         }
 
         .comparison-row .row-feature .feature-icon {
-            width: 40px;
-            height: 40px;
+            width: 34px;
+            height: 34px;
             background: var(--bg-light);
-            border-radius: 10px;
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
         .comparison-row .row-feature .feature-icon svg {
-            width: 22px;
-            height: 22px;
+            width: 18px;
+            height: 18px;
         }
 
         .comparison-row .row-feature .feature-icon svg path {
@@ -1307,7 +1307,7 @@
         }
 
         .comparison-row .row-feature span {
-            font-size: 1rem;
+            font-size: 0.9rem;
             font-weight: 600;
             color: var(--text-dark);
         }
@@ -1317,7 +1317,7 @@
         }
 
         .comparison-row .value-text {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             color: var(--text-gray);
             font-weight: 500;
         }
@@ -1367,13 +1367,13 @@
         }
 
         .comparison-footer {
-            padding: 25px 30px;
+            padding: 18px 24px;
             background: linear-gradient(135deg, rgba(0, 217, 255, 0.08) 0%, rgba(123, 44, 191, 0.08) 100%);
             text-align: center;
         }
 
         .comparison-footer p {
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 600;
             color: var(--text-dark);
             margin: 0;
@@ -1387,23 +1387,23 @@
         }
 
         .comparison-savings-box {
-            margin-top: 30px;
+            margin-top: 40px;
             max-width: 900px;
             margin-left: auto;
             margin-right: auto;
-            padding: 30px 40px;
+            padding: 45px 50px;
             background: linear-gradient(135deg, rgba(0, 217, 255, 0.06) 0%, rgba(123, 44, 191, 0.08) 50%, rgba(157, 78, 221, 0.06) 100%);
-            border-radius: 20px;
-            box-shadow: 0 10px 40px rgba(0, 217, 255, 0.12);
+            border-radius: 24px;
+            box-shadow: 0 15px 50px rgba(0, 217, 255, 0.15);
             border: 2px solid rgba(0, 217, 255, 0.25);
             text-align: center;
         }
 
         .comparison-savings-box .savings-headline {
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             font-weight: 800;
             color: var(--text-dark);
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .comparison-savings-box .savings-headline .percent {
@@ -1425,7 +1425,7 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             color: var(--text-gray);
         }
 
@@ -1443,10 +1443,10 @@
         }
 
         .comparison-roi-note {
-            margin-top: 20px;
+            margin-top: 25px;
             padding: 0 20px;
             text-align: center;
-            font-size: 1rem;
+            font-size: 1.1rem;
             color: var(--text-dark);
             line-height: 1.6;
         }
@@ -1458,16 +1458,16 @@
         @media (max-width: 768px) {
             .comparison-table-header,
             .comparison-row {
-                grid-template-columns: 1fr 100px 100px;
-                padding: 15px 20px;
+                grid-template-columns: 1fr 90px 90px;
+                padding: 12px 16px;
             }
 
             .comparison-table-header .col-label {
-                font-size: 0.8rem;
+                font-size: 0.75rem;
             }
 
             .comparison-row .row-feature span {
-                font-size: 0.85rem;
+                font-size: 0.8rem;
             }
 
             .comparison-row .row-feature .feature-icon {
@@ -1476,6 +1476,10 @@
 
             .comparison-header h2 {
                 font-size: 1.8rem;
+            }
+
+            .comparison-savings-box {
+                padding: 30px 25px;
             }
         }
 
@@ -2535,6 +2539,339 @@
 
             .input-row .row-value {
                 font-size: 1.5rem;
+            }
+        }
+
+        /* No-Show Calculator Section */
+        .noshow-section {
+            background: var(--bg-light);
+        }
+
+        .noshow-header {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .noshow-header h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+        }
+
+        .noshow-header p {
+            font-size: 1.15rem;
+            color: var(--text-gray);
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .noshow-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            max-width: 1100px;
+            margin: 0 auto;
+            align-items: center;
+        }
+
+        .noshow-sliders {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .noshow-slider-row {
+            background: white;
+            border-radius: 16px;
+            padding: 22px 28px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        .noshow-slider-top {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 14px;
+        }
+
+        .noshow-slider-icon {
+            width: 46px;
+            height: 46px;
+            min-width: 46px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .noshow-slider-icon svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .noshow-slider-icon svg path {
+            fill: white;
+        }
+
+        .noshow-slider-icon.visits {
+            background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-mid) 100%);
+        }
+
+        .noshow-slider-icon.percent {
+            background: linear-gradient(135deg, #FF6B6B 0%, #DC3545 100%);
+        }
+
+        .noshow-slider-icon.value {
+            background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+        }
+
+        .noshow-slider-info {
+            flex: 1;
+        }
+
+        .noshow-slider-label {
+            font-size: 0.9rem;
+            color: var(--text-gray);
+            margin-bottom: 2px;
+        }
+
+        .noshow-slider-value {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            line-height: 1.2;
+        }
+
+        .noshow-slider-row input[type="range"] {
+            width: 100%;
+            -webkit-appearance: none;
+            appearance: none;
+            height: 6px;
+            border-radius: 3px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .noshow-slider-row input[type="range"].slider-blue {
+            background: linear-gradient(90deg, var(--gradient-start) 0%, var(--gradient-mid) 100%);
+        }
+
+        .noshow-slider-row input[type="range"].slider-red {
+            background: linear-gradient(90deg, #FF6B6B 0%, #DC3545 100%);
+        }
+
+        .noshow-slider-row input[type="range"].slider-green {
+            background: linear-gradient(90deg, #4CAF50 0%, #2E7D32 100%);
+        }
+
+        .noshow-slider-row input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: white;
+            border: 3px solid var(--gradient-mid);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .noshow-slider-row input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.15);
+        }
+
+        .noshow-slider-row input[type="range"]::-moz-range-thumb {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: white;
+            border: 3px solid var(--gradient-mid);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+        .noshow-slider-row input[type="range"].slider-red::-webkit-slider-thumb {
+            border-color: #DC3545;
+        }
+
+        .noshow-slider-row input[type="range"].slider-red::-moz-range-thumb {
+            border-color: #DC3545;
+        }
+
+        .noshow-slider-row input[type="range"].slider-green::-webkit-slider-thumb {
+            border-color: #2E7D32;
+        }
+
+        .noshow-slider-row input[type="range"].slider-green::-moz-range-thumb {
+            border-color: #2E7D32;
+        }
+
+        .noshow-results {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .noshow-box {
+            border-radius: 24px;
+            padding: 35px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .noshow-box.loss {
+            background: white;
+            box-shadow: 0 10px 40px rgba(220, 53, 69, 0.12);
+            border: 2px solid rgba(220, 53, 69, 0.2);
+        }
+
+        .noshow-box.loss::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #FF6B6B 0%, #DC3545 100%);
+        }
+
+        .noshow-box-label {
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 12px;
+        }
+
+        .noshow-box.loss .noshow-box-label {
+            color: #DC3545;
+        }
+
+        .noshow-box-title {
+            font-size: 1rem;
+            color: var(--text-gray);
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .noshow-box-amount {
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .noshow-box.loss .noshow-box-amount {
+            color: #DC3545;
+        }
+
+        .noshow-box-sub {
+            font-size: 0.95rem;
+            color: var(--text-gray);
+        }
+
+        .noshow-box-detail {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+            font-size: 0.9rem;
+            color: var(--text-gray);
+        }
+
+        .noshow-box-detail strong {
+            color: var(--text-dark);
+            font-weight: 700;
+        }
+
+        .noshow-box.voicelink {
+            background: white;
+            box-shadow: 0 10px 40px rgba(0, 217, 255, 0.15);
+            border: 2px solid rgba(0, 217, 255, 0.25);
+        }
+
+        .noshow-box.voicelink::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--gradient-start) 0%, var(--gradient-mid) 100%);
+        }
+
+        .noshow-box.voicelink .noshow-box-label {
+            background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-mid) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .noshow-box.voicelink .noshow-box-amount {
+            background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-mid) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .noshow-savings-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 18px;
+            padding: 10px 22px;
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.1) 0%, rgba(46, 125, 50, 0.15) 100%);
+            border-radius: 50px;
+            border: 1px solid rgba(76, 175, 80, 0.3);
+        }
+
+        .noshow-savings-badge svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .noshow-savings-badge svg path {
+            fill: #2E7D32;
+        }
+
+        .noshow-savings-badge span {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #2E7D32;
+        }
+
+        @media (max-width: 968px) {
+            .noshow-layout {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .noshow-header h2 {
+                font-size: 1.8rem;
+            }
+
+            .noshow-box-amount {
+                font-size: 2.4rem;
+            }
+
+            .noshow-box {
+                padding: 28px 22px;
+            }
+
+            .noshow-slider-row {
+                padding: 18px 20px;
+            }
+
+            .noshow-slider-value {
+                font-size: 1.3rem;
             }
         }
 
@@ -4080,18 +4417,6 @@
         </div>
     </section>
 
-    <!-- Big Question Section -->
-    <section class="big-question-section">
-        <div class="big-question">
-            <div class="big-question-icon">
-                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9 21C9 21.55 9.45 22 10 22H14C14.55 22 15 21.55 15 21V20H9V21ZM12 2C8.14 2 5 5.14 5 9C5 11.38 6.19 13.47 8 14.74V17C8 17.55 8.45 18 9 18H15C15.55 18 16 17.55 16 17V14.74C17.81 13.47 19 11.38 19 9C19 5.14 15.86 2 12 2ZM14.85 13.1L14 13.7V16H10V13.7L9.15 13.1C7.8 12.16 7 10.63 7 9C7 6.24 9.24 4 12 4C14.76 4 17 6.24 17 9C17 10.63 16.2 12.16 14.85 13.1Z" fill="white"/>
-                </svg>
-            </div>
-            <h2>A co jeśli <span>każdy telefon</span><br>byłby odbierany i obsługiwany?</h2>
-        </div>
-    </section>
-
     <!-- Solution Section -->
     <section class="section solution-section">
         <div class="container">
@@ -4441,7 +4766,7 @@
                         <div class="row-content">
                             <div class="row-value"><span id="callsValue">50</span> telefonów</div>
                             <div class="row-label">dziennie do odebrania</div>
-                            <input type="range" id="callsSlider" min="20" max="500" step="10" value="50" class="savings-slider">
+                            <input type="range" id="callsSlider" min="20" max="5000" step="10" value="50" class="savings-slider">
                         </div>
                     </div>
 
@@ -4505,6 +4830,87 @@
                                 <div class="stat-value" id="savingsYearly">440 h / rok</div>
                                 <div class="stat-label" id="savingsYearlyDays">55 dni roboczych</div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- No-Show Calculator Section -->
+    <section class="section noshow-section">
+        <div class="container">
+            <div class="noshow-header">
+                <h2>Ile kosztują Cię <span class="gradient-text">nieobecności?</span></h2>
+                <p>Oblicz miesięczne straty z powodu no-show i zobacz, ile możesz zaoszczędzić z VoiceLink</p>
+            </div>
+
+            <div class="noshow-layout">
+                <!-- Left side - sliders -->
+                <div class="noshow-sliders">
+                    <div class="noshow-slider-row">
+                        <div class="noshow-slider-top">
+                            <div class="noshow-slider-icon visits">
+                                <svg viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/></svg>
+                            </div>
+                            <div class="noshow-slider-info">
+                                <div class="noshow-slider-label">Liczba wizyt dziennie</div>
+                                <div class="noshow-slider-value"><span id="noshowVisits">40</span> wizyt</div>
+                            </div>
+                        </div>
+                        <input type="range" id="noshowVisitsSlider" min="10" max="2000" step="5" value="40" class="slider-blue">
+                    </div>
+
+                    <div class="noshow-slider-row">
+                        <div class="noshow-slider-top">
+                            <div class="noshow-slider-icon percent">
+                                <svg viewBox="0 0 24 24"><path d="M7.5 11C9.43 11 11 9.43 11 7.5S9.43 4 7.5 4 4 5.57 4 7.5 5.57 11 7.5 11zm0-5C8.33 6 9 6.67 9 7.5S8.33 9 7.5 9 6 8.33 6 7.5 6.67 6 7.5 6zM16.5 13C14.57 13 13 14.57 13 16.5s1.57 3.5 3.5 3.5 3.5-1.57 3.5-3.5-1.57-3.5-3.5-3.5zm0 5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5.41 20L4 18.59 18.59 4 20 5.41 5.41 20z"/></svg>
+                            </div>
+                            <div class="noshow-slider-info">
+                                <div class="noshow-slider-label">Aktualny procent no-show</div>
+                                <div class="noshow-slider-value"><span id="noshowPercent">15</span>%</div>
+                            </div>
+                        </div>
+                        <input type="range" id="noshowPercentSlider" min="5" max="40" step="1" value="15" class="slider-red">
+                    </div>
+
+                    <div class="noshow-slider-row">
+                        <div class="noshow-slider-top">
+                            <div class="noshow-slider-icon value">
+                                <svg viewBox="0 0 24 24"><path d="M11.8 10.9C9.53 10.31 8.8 9.7 8.8 8.75C8.8 7.66 9.81 6.9 11.5 6.9C13.28 6.9 13.94 7.75 14 9H16.21C16.14 7.28 15.09 5.7 13 5.19V3H10V5.16C8.06 5.58 6.5 6.84 6.5 8.77C6.5 11.08 8.41 12.23 11.2 12.9C13.7 13.5 14.2 14.38 14.2 15.31C14.2 16 13.71 17.1 11.5 17.1C9.44 17.1 8.63 16.18 8.52 15H6.32C6.44 17.19 8.08 18.42 10 18.83V21H13V18.85C14.95 18.48 16.5 17.35 16.5 15.3C16.5 12.46 14.07 11.49 11.8 10.9Z"/></svg>
+                            </div>
+                            <div class="noshow-slider-info">
+                                <div class="noshow-slider-label">Wartość jednej wizyty</div>
+                                <div class="noshow-slider-value"><span id="noshowValue">120</span> zł</div>
+                            </div>
+                        </div>
+                        <input type="range" id="noshowValueSlider" min="50" max="500" step="10" value="120" class="slider-green">
+                    </div>
+                </div>
+
+                <!-- Right side - results -->
+                <div class="noshow-results">
+                    <div class="noshow-box loss">
+                        <div class="noshow-box-label">Twoje obecne straty</div>
+                        <div class="noshow-box-title">Miesięczna strata z powodu no-show</div>
+                        <div class="noshow-box-amount" id="noshowLoss">15 840 zł</div>
+                        <div class="noshow-box-sub" id="noshowLossSub">132 stracone wizyty miesięcznie</div>
+                        <div class="noshow-box-detail">
+                            <strong id="noshowLossYear">190 080 zł</strong> straconych rocznie
+                        </div>
+                    </div>
+
+                    <div class="noshow-box voicelink">
+                        <div class="noshow-box-label">Z asystentem VoiceLink</div>
+                        <div class="noshow-box-title">Automatyczne potwierdzenia i przypomnienia SMS obniżają no-show do zaledwie 5%</div>
+                        <div class="noshow-box-amount" id="noshowVoicelink">10 560 zł</div>
+                        <div class="noshow-box-sub" id="noshowVoicelinkSub">Tyle odzyskujesz każdego miesiąca</div>
+                        <div class="noshow-box-detail">
+                            <strong id="noshowSavingYear">126 720 zł</strong> oszczędności rocznie
+                        </div>
+                        <div class="noshow-savings-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                            <span id="noshowSaving">VoiceLink ratuje 88 wizyt miesięcznie</span>
                         </div>
                     </div>
                 </div>
@@ -4919,33 +5325,33 @@
                     </ul>
                 </div>
 
-                <!-- Card 3: Monthly Reports -->
+                <!-- Card 3: Dedykowany Panel VoiceLink -->
                 <div class="whatyouget-card">
                     <div class="whatyouget-card-top">
                         <div class="whatyouget-card-icon">
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V5H19V19ZM7 10H9V17H7V10ZM11 7H13V17H11V7ZM15 13H17V17H15V13Z" fill="white"/>
+                                <path d="M21 3H3C1.9 3 1 3.9 1 5V17C1 18.1 1.9 19 3 19H8L12 23L16 19H21C22.1 19 23 18.1 23 17V5C23 3.9 22.1 3 21 3ZM21 17H15.17L12 20.17L8.83 17H3V5H21V17ZM7 10H9V15H7V10ZM11 7H13V15H11V7ZM15 12H17V15H15V12Z" fill="white"/>
                             </svg>
                         </div>
-                        <h3>Comiesięczne raporty i spotkania</h3>
-                        <p>Pełna transparentność — wiesz dokładnie, jak pracuje Twój asystent AI. Raporty i spotkania przez pierwsze 6 miesięcy współpracy.</p>
+                        <h3>Dedykowany Panel VoiceLink</h3>
+                        <p>Masz dostęp do własnego panelu VoiceLink 24/7 — śledź statystyki asystenta głosowego w Twojej placówce na okrągło. Dodatkowo przez pierwsze 6 miesięcy organizujemy comiesięczne spotkania omawiające wyniki i dalszy rozwój.</p>
                     </div>
                     <ul class="whatyouget-features">
                         <li>
                             <span class="check-icon"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></span>
-                            <span>Szczegółowe statystyki agenta (połączenia, czas, skuteczność)</span>
+                            <span>Panel dostępny 24/7 — statystyki połączeń, czas obsługi, skuteczność</span>
                         </li>
                         <li>
                             <span class="check-icon"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></span>
-                            <span>Comiesięczne spotkanie omawiające wyniki</span>
+                            <span>Comiesięczne spotkania przez pierwsze 6 miesięcy</span>
                         </li>
                         <li>
                             <span class="check-icon"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></span>
-                            <span>Analiza trendów i rekomendacje usprawnień</span>
+                            <span>Omówienie wyników, analiza trendów i rekomendacje</span>
                         </li>
                         <li>
                             <span class="check-icon"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></span>
-                            <span>Wspólne planowanie dalszego rozwoju</span>
+                            <span>Wspólne planowanie dalszego rozwoju asystenta</span>
                         </li>
                     </ul>
                 </div>
@@ -4979,14 +5385,12 @@
 
             callsValue.textContent = calls;
 
-            // Obliczenia
             const totalMinutesMonth = calls * avgMinutes * workDays;
             const totalHoursMonth = Math.ceil(totalMinutesMonth / 60);
             const totalDaysMonth = Math.ceil(totalHoursMonth / 8);
             const totalHoursYear = Math.ceil(totalHoursMonth * 12);
             const totalDaysYear = Math.ceil(totalHoursYear / 8);
 
-            // Formatowanie
             savingsHours.textContent = totalHoursMonth.toLocaleString('pl-PL');
             savingsMinutes.textContent = totalMinutesMonth.toLocaleString('pl-PL') + ' min';
             savingsDays.textContent = totalDaysMonth + ' dni';
@@ -4996,6 +5400,56 @@
 
         callsSlider.addEventListener('input', updateSavings);
         updateSavings();
+
+        // No-Show calculator
+        const noshowVisitsSlider = document.getElementById('noshowVisitsSlider');
+        const noshowPercentSlider = document.getElementById('noshowPercentSlider');
+        const noshowValueSlider = document.getElementById('noshowValueSlider');
+        const noshowVisits = document.getElementById('noshowVisits');
+        const noshowPercent = document.getElementById('noshowPercent');
+        const noshowValue = document.getElementById('noshowValue');
+        const noshowLoss = document.getElementById('noshowLoss');
+        const noshowLossSub = document.getElementById('noshowLossSub');
+        const noshowLossYear = document.getElementById('noshowLossYear');
+        const noshowVoicelink = document.getElementById('noshowVoicelink');
+        const noshowVoicelinkSub = document.getElementById('noshowVoicelinkSub');
+        const noshowSaving = document.getElementById('noshowSaving');
+
+        function updateNoShow() {
+            const visits = parseInt(noshowVisitsSlider.value);
+            const percent = parseInt(noshowPercentSlider.value);
+            const value = parseInt(noshowValueSlider.value);
+            const workDays = 22;
+            const voicelinkPercent = 5;
+
+            noshowVisits.textContent = visits;
+            noshowPercent.textContent = percent;
+            noshowValue.textContent = value;
+
+            const lostVisitsMonth = Math.round(visits * (percent / 100) * workDays);
+            const lossMonth = lostVisitsMonth * value;
+            const lossYear = lossMonth * 12;
+
+            const vlLostVisitsMonth = Math.round(visits * (voicelinkPercent / 100) * workDays);
+            const vlLossMonth = vlLostVisitsMonth * value;
+
+            const savingMonth = lossMonth - vlLossMonth;
+            const savingYear = savingMonth * 12;
+            const savedVisits = lostVisitsMonth - vlLostVisitsMonth;
+
+            noshowLoss.textContent = lossMonth.toLocaleString('pl-PL') + ' zł';
+            noshowLossSub.textContent = lostVisitsMonth + ' straconych wizyt miesięcznie';
+            noshowLossYear.textContent = lossYear.toLocaleString('pl-PL') + ' zł';
+            noshowVoicelink.textContent = savingMonth.toLocaleString('pl-PL') + ' zł';
+            noshowVoicelinkSub.textContent = 'Tyle odzyskujesz każdego miesiąca';
+            document.getElementById('noshowSavingYear').textContent = savingYear.toLocaleString('pl-PL') + ' zł';
+            noshowSaving.textContent = 'VoiceLink ratuje ' + savedVisits + ' wizyt miesięcznie';
+        }
+
+        noshowVisitsSlider.addEventListener('input', updateNoShow);
+        noshowPercentSlider.addEventListener('input', updateNoShow);
+        noshowValueSlider.addEventListener('input', updateNoShow);
+        updateNoShow();
 
         // Stages navigation - keyboard control
         const stageCards = document.querySelectorAll('.stage-card');
